@@ -3,3 +3,5 @@ services:
   netbox:
     ports:
     - 8080:8080
+    heealthcheck:
+      retries: 15

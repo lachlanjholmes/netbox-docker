@@ -4,7 +4,7 @@ services:
     ports:
     - 8080:8080
     volumes:
-      - ../configuration:/etc/netbox/config:z,ro
+      - ./configuration:/etc/netbox/config:z,ro
     # - netbox-media-files:/opt/netbox/netbox/media:z,rw
     # - netbox-reports-files:/opt/netbox/netbox/reports:z,rw
     # - netbox-scripts-files:/opt/netbox/netbox/scripts:z,rw

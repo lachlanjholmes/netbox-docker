@@ -6,8 +6,6 @@
 
 # PLUGINS = ["netbox_bgp"]
 
-# PLUGINS_CONFIG = {
-#   "netbox_bgp": {
-#     ADD YOUR SETTINGS HERE
-#   }
-# }
+PLUGINS_CONFIG = {
+  "slurpit_netbox",
+}

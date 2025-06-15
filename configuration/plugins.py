@@ -5,8 +5,8 @@
 # See https://github.com/netbox-community/netbox-docker/wiki/Using-Netbox-Plugins
 
 PLUGINS = [
-    "netbox_topology_views",
-    "netbox_secrets"
+    # "netbox_secrets",
+    "netbox_topology_views"    
 ]
 
 # PLUGINS_CONFIG = {

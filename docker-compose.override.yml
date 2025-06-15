@@ -7,8 +7,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-Plugins
-    ports:
-    - 8080:8080
     healthcheck:
       retries: 15      
   netbox-worker:

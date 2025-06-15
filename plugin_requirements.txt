@@ -1,3 +1,2 @@
-netbox_diode_plugin
 netbox_secrets
 netbox_topology_views

@@ -6,8 +6,7 @@
 
 PLUGINS = [
     "netbox_topology_views",
-    "netbox_secrets",
-    "netbox_diode_plugin"
+    "netbox_secrets"
 ]
 
 # PLUGINS_CONFIG = {
